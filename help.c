@@ -139,9 +139,9 @@ void myhelp(u8 *argv0) {
         "       double-click on the QuickBMS executable\n"
         "\n"
         "Examples:\n"
-        "  quickbms c:\\zip.bms c:\\myfile.zip \"c:\\new folder\"\n"
+        "  quickbms /home/zip.bms /home/myfile.zip \"/home/new folder\"\n"
         "  quickbms -l -f \"*.txt;*.dds\" zip.bms myfile.zip\n"
-        "  quickbms -F \"{}.bff\" c:\\nfsshift.bms c:\\Shift\\Pakfiles c:\\output\n"
+        "  quickbms -F \"{}.bff\" /home/nfsshift.bms /home/Shift\\Pakfiles /home/output\n"
         "\n"
         "Check quickbms.txt for the manual and the list of additional credits.\n"
         "\n", argv0,
